@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1 rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+    <title>IA</title>
+</head>
+<body>
+<header>
+    <h1>Inteligencia Artificial</h1>
+    <nav>
+        <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a class="active" href="preferencias.html">Preferencias</a></li>
+           <li><a href="audiovisual.html">AudioVisuales</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<h2 style="margin: 15px;">Ramas importantes en el campo de la IA</h2>
+<hr>
+<div class="container">
+    <table>
+        <colgroup>
+            <col style="background-color: rgb(234, 183, 117);" >
+            <col style="background-color: rgb(166, 116, 50);">
+            <col style="background-color: rgb(168, 136, 94);">
+        </colgroup>
+        <th>Rama</th>
+        <th>Denominación en Inglés</th>
+        <th>Descripción</th>
+        <tr>
+            <td>IA Débil</td>
+            <td>Narrow AI</td>
+            <td>Sistemas diseñados para realizar tareas específicas y limitadas, como asistentes virtuales o motores de recomendación. </td>
+        </tr>
+        <tr>
+            <td>IA Fuerte</td>
+            <td>General AI</td>
+            <td>Hipotética IA con capacidades cognitivas generales, capaz de aprender y realizar cualquier tarea intelectual humana. Actualmente, no existe.</td>
+        </tr>
+        <tr>
+            <td>Machine Learning</td>
+            <td>Aprendizaje Automático</td>
+            <td>Técnica que permite a los sistemas aprender automáticamente a partir de datos y mejorar con la experiencia sin ser programados explícitamente</td>
+        </tr>
+        <tr>
+            <td>Procesamiento del Lenguaje Natural</td>
+            <td>NLP</td>
+            <td>Rama que permite a las máquinas entender, interpretar y generar lenguaje humano. Usado en chatbots, traducción automática, análisis de sentimientos, etc.</td>
+        </tr>
+        <tr>
+            <td>Visión por Computadora</td>
+            <td>Computer Vision</td>
+            <td>Permite a las máquinas interpretar y comprender información visual del mundo, como reconocimiento de objetos y análisis de imágenes.</td>
+        </tr>
+        <tr>
+            <td>Robótica</td>
+            <td>Robotic</td>
+            <td>Combinación de IA y mecánica para crear robots que interactúan con el entorno físico de manera autónoma.</td>
+        </tr>
+        <tr>
+            <td>Sistemas Expertos</td>
+            <td>Experts Systems</td>
+            <td>Programas diseñados para emular la toma de decisiones de un humano experto en un campo específico, como diagnóstico médico o resolución de problemas técnicos.</td>
+        </tr>
+        <tr>
+            <td>Redes Neuronales</td>
+            <td>Neuronal Networks</td>
+            <td>Algoritmos inspirados en la estructura del cerebro humano que permiten a las máquinas aprender de datos complejos. Son la base de muchas aplicaciones de IA moderna, como deep learning. </td>
+        </tr>
+        <tr>
+            <td>Algoritmos Genéticos</td>
+            <td>Genetics Algorithms</td>
+            <td>Modelos de optimización que imitan los procesos de la evolución biológica para encontrar soluciones óptimas en problemas complejos. </td>
+        </tr>
+        <tr>
+            <td>Lógica Difusa</td>
+            <td>Fuzzy Logic</td>
+            <td>Método que permite manejar conceptos vagos o imprecisos, usado en controladores inteligentes y sistemas de toma de decisiones.  </td>
+        </tr>
+    </table>
+</div>
+
+<footer class="footer">
+    <p>Derechos Reservados &copy; 2024</p>
+</footer>
+
+</body>
